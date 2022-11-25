@@ -12,7 +12,7 @@
 <!-- movielist_light16:30-->
 <head>
 	<!-- Basic need -->
-	<title>Open Pediatrics</title>
+	<title>{% block title %}IMDb{% endblock %}</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -36,7 +36,7 @@
 <body>
 <!--preloading-->
 <div id="preloader">
-    <img class="logo" src="{% static 'movies/images/logo1.png' %}" alt="" width="119" height="58">
+    <img class="logo" src="{% static 'movies/images/logo.png' %}" alt="" width="119" height="58">
     <div id="status">
         <span></span>
         <span></span>
@@ -135,9 +135,13 @@
 							<span></span>
 							<span></span>
 							<span></span>
-						</div>
+						</div>Tony Stark creates the Ultron Program to protect the world, but when
+                                                    the peacekeeping program becomes hostile, The Avengers go into
+                                                    action to try and defeat a virtually impossible enemy together.
+                                                    Earth's mightiest heroes must come together once again to protect
+                                                    the world from global extinction.
 				    </div>
-				    <a href=""><img class="logo" src="{% static 'movies/images/logo1.png' %}" alt="" width="119" height="58"></a>
+				    <a href=""><img class="logo" src="{% static 'movies/images/logo.png' %}" alt="" width="119" height="58"></a>
 			    </div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
@@ -166,20 +170,17 @@
 	<div class="container">
 		<div class="flex-parent-ft">
 			<div class="flex-child-ft item1">
-				 <a href=""><img class="logo" src="{% static 'movies/images/logo1.png' %}" alt=""></a>
-				 <p>5th Avenue st, manhattan<br>
-				New York, NY 10001</p>
-				<p>Call us: <a href="#">(+01) 202 342 6789</a></p>
+				 <a href=""><img class="logo" src="{% static 'movies/images/logo.png' %}" alt=""></a>
+				 <p>MADE BY YAS</p>
+				<p>Contact us: <a href="#">ramezaniyas39@gmail.com</a></p>
 			</div>
 			<div class="flex-child-ft item2">
 				<h4>Resources</h4>
 				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Blockbuster</a></li>
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">Forums</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Help Center</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">YouTube</a></li>
+					<li><a href="#">Facebook</a></li>
 				</ul>
 			</div>
 		</div>
