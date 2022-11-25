@@ -3,7 +3,7 @@
      display: none;
 }
  .mean-container .mean-bar {
-     background: #f00;
+     background: rgb(243, 193, 67);
      float: left;
      min-height: 40px;
      padding: 5px 0;
@@ -98,7 +98,7 @@
      padding: 1em 25%;
 }
  .mean-container .mean-nav ul li a:hover {
-     ` background: #252525;
+     background: #252525;
      background: rgba(255, 255, 255, 0.1);
 }
  .mean-container .mean-nav ul li a.mean-expand {
@@ -149,5 +149,5 @@
      color: #ffffff;
 }
  .mean-container .mean-nav ul li a:hover {
-     color: #f00 ;
+     color: rgb(243, 193, 67) ;
 }
