@@ -8,3 +8,11 @@ def movie_list(request):
         'movies': movies
     }
     return render(request, 'movies/movie_list.html', context=context)
+
+
+def movie_detail(request, pk):
+    movie = Movie.objects.get(pk=pk)
+    context = {
+        'movie': movie
+    }
+    return render(request, 'movies/detail.html', context=context)
