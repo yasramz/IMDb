@@ -7,4 +7,4 @@ def movie_list(request):
     context = {
         'movies': movies
     }
-    return render(request, 'movies/movies_list.html', context=context)
+    return render(request, 'movies/movie_list.html', context=context)
